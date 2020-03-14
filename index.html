@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Giphy Generator</title>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <!--Header-->
+            <div class="jumbotron jumbotron-fluid">
+                <div class="display-4">Gif Generator</div>
+                <div class="lead"><p>Type in the text box to add a gif button</p></div>
+            </div>
+            <br><br>
+
+            <!--Display Buttons-->
+            <div class="row">
+                <div class="col">
+                    <div id="button-dump"></div>
+                </div>
+            </div>
+            <!--Text Input-->
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="textput">
+                        
+                        <input type="text" id="usertext">
+                        <br><br>
+                        <!--Button For On Click-->
+                        <input id="usersubmit" type="submit" value="Add Your Gif!">
+                    </form>
+                </div>
+            </div>
+            
+            <!--Display Gifs-->
+            <div class="row">
+                <div class="col" id="gif-dump"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
