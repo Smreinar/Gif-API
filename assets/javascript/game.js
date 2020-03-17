@@ -32,7 +32,7 @@ function displayGifInfo(){
             "src": results[i].images.fixed_height.url,
             "data-still": results[i].images.fixed_height_still.url,
             "data-animate": results[i].images.fixed_height.url,
-            
+            //cant figure out how to get gifs start still
             
             
         })

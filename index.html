@@ -13,17 +13,19 @@
         <div class="container">
 
             <!--Header-->
-            <div class="jumbotron jumbotron-fluid">
-                <div class="display-4">Gif Generator</div>
-                <div class="lead"><p>Type in the text box to add a gif button</p></div>
+            <div class="jumbotron jumbotron-fluid" id="head">
+                <div class="display-1">Gif Generator</div>
+                <div class="lead"><h4>Generate 10 gifs by clicking a button below or add your own button!</h4></div>
             </div>
             <br><br>
 
             <!--Display Buttons-->
-            <div class="row">
+            <div class="row" id="bt-form">
                 <div class="col">
-                    <div id="button-form">
-                        
+                    <div id="btn-form">
+                        <h6>Click A Button!</h6>
+                        <div id="button-form">
+                        </div>    
                     </div>
                 </div>
             </div>
@@ -32,7 +34,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <form id="textput">
-                        
+
+                        <h6>Make Your Button!</h6>
                         <input type="text" id="userText">
                         <br><br>
                         <!--Button For On Click-->

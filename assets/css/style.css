@@ -1,0 +1,23 @@
+body {
+    background-color: skyblue;
+    
+}
+#head {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.575);
+    font-weight: bold;
+    color: blue;
+
+}
+#btn-form {
+    text-align: center;
+}
+
+#textput {
+    text-align: center;
+}
+
+.gifs{
+    float: left;
+    padding: 10px;
+}
